@@ -61,7 +61,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center">
-                        <img src="/src/assets/vk (2).ico" alt="VK Logo" className="h-10 w-10 object-contain hover:scale-110 transition-transform duration-300" />
+                        <img src="/src/assets/vk-8.png" alt="VK Logo" className="h-10 w-10 object-contain hover:scale-110 transition-transform duration-300" />
                     </Link>
 
                     {/* Desktop Menu */}
