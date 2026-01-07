@@ -60,7 +60,7 @@ const Projects = () => {
             title: 'Retro-Games',
             description: 'Step into the nostalgic world of classic gaming! This project features refreshed versions of timeless favorites including Tic Tac Toe, Snake Game, Brick Breaker, and Tetris — all brought to life through modern programming techniques.',
             tech: ['Java', 'Android', 'Game Development', 'Android Studio'],
-            github: 'https://github.com/Vigneshwaran-VK-21/Retro-Games.git',
+            live: 'https://play.google.com/store/apps/details?id=com.game.retrogames&pli=1',
             image: retroGames,
         },
     ];
