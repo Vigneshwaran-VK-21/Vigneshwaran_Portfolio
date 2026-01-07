@@ -14,6 +14,15 @@ import calculator from '../assets/Calcultor.png';
 import quickNotes from '../assets/Quick Notes.png';
 import emotionReader from '../assets/Emotion Reader.png';
 import retroGames from '../assets/Retro games.jpg';
+import profilePhoto from '../assets/profile photo.png';
+import javaIcon from '../assets/Java.svg';
+import pythonIcon from '../assets/Python.svg';
+import reactIcon from '../assets/React 1.svg';
+import nodeIcon from '../assets/Node.js.svg';
+import mongoIcon from '../assets/MongoDB.svg';
+import htmlIcon from '../assets/HTML5.svg';
+import cIcon from '../assets/C.svg';
+import cssIcon from '../assets/CSS3.svg';
 
 const Home = () => {
     const skills = [
@@ -215,7 +224,7 @@ const Home = () => {
                                 whileHover={{ scale: 1.2, rotate: 15 }}
                                 className="absolute -top-16 left-8 md:left-12 w-14 h-14 md:w-16 md:h-16 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg shadow-red-500/50 cursor-pointer z-10 p-2"
                             >
-                                <img src="/src/assets/Java.svg" alt="Java" className="w-full h-full object-contain" />
+                                <img src={javaIcon} alt="Java" className="w-full h-full object-contain" />
                             </motion.div>
 
                             {/* Python - Top Right */}
@@ -236,7 +245,7 @@ const Home = () => {
                                 whileHover={{ scale: 1.2, rotate: -15 }}
                                 className="absolute -top-12 right-12 md:right-16 w-14 h-14 md:w-16 md:h-16 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg shadow-blue-500/50 cursor-pointer z-10 p-2"
                             >
-                                <img src="/src/assets/Python.svg" alt="Python" className="w-full h-full object-contain" />
+                                <img src={pythonIcon} alt="Python" className="w-full h-full object-contain" />
                             </motion.div>
 
                             {/* React - Right Side */}
@@ -258,7 +267,7 @@ const Home = () => {
                                 className="absolute right-0 top-1/4 w-12 h-12 md:w-14 md:h-14 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg shadow-cyan-500/50 cursor-pointer z-10 p-2"
                             >
                                 <img
-                                    src="/src/assets/React 1.svg"
+                                    src={reactIcon}
                                     alt="React"
                                     className="w-full h-full object-contain animate-spin-slow"
                                 />
@@ -282,7 +291,7 @@ const Home = () => {
                                 whileHover={{ scale: 1.2, rotate: 20 }}
                                 className="absolute -bottom-8 right-8 md:right-16 w-14 h-14 md:w-16 md:h-16 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg shadow-green-500/50 cursor-pointer z-10 p-2"
                             >
-                                <img src="/src/assets/Node.js.svg" alt="Node.js" className="w-full h-full object-contain" />
+                                <img src={nodeIcon} alt="Node.js" className="w-full h-full object-contain" />
                             </motion.div>
 
                             {/* MongoDB - Bottom Left */}
@@ -303,7 +312,7 @@ const Home = () => {
                                 whileHover={{ scale: 1.2, rotate: -20 }}
                                 className="absolute -bottom-12 left-4 md:left-8 w-14 h-14 md:w-16 md:h-16 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg shadow-green-600/50 cursor-pointer z-10 p-2"
                             >
-                                <img src="/src/assets/MongoDB.svg" alt="MongoDB" className="w-full h-full object-contain" />
+                                <img src={mongoIcon} alt="MongoDB" className="w-full h-full object-contain" />
                             </motion.div>
 
                             {/* HTML - Left Side Top */}
@@ -319,7 +328,7 @@ const Home = () => {
                                 whileHover={{ scale: 1.2 }}
                                 className="absolute left-0 top-1/4 w-12 h-12 md:w-14 md:h-14 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/50 cursor-pointer z-10 p-2"
                             >
-                                <img src="/src/assets/HTML5.svg" alt="HTML5" className="w-full h-full object-contain" />
+                                <img src={htmlIcon} alt="HTML5" className="w-full h-full object-contain" />
                             </motion.div>
 
                             {/* C Language - Left Side Bottom */}
@@ -335,7 +344,7 @@ const Home = () => {
                                 whileHover={{ scale: 1.2, rotate: -25 }}
                                 className="absolute left-4 bottom-1/4 w-12 h-12 md:w-14 md:h-14 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg shadow-blue-600/50 cursor-pointer z-10 p-2"
                             >
-                                <img src="/src/assets/C.svg" alt="C" className="w-full h-full object-contain" />
+                                <img src={cIcon} alt="C" className="w-full h-full object-contain" />
                             </motion.div>
 
                             {/* CSS - Right Side Bottom */}
@@ -356,7 +365,7 @@ const Home = () => {
                                 whileHover={{ scale: 1.2, rotate: 10 }}
                                 className="absolute right-4 bottom-1/4 w-16 h-16 md:w-18 md:h-18 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg shadow-blue-500/50 cursor-pointer z-10 p-2"
                             >
-                                <img src="/src/assets/CSS3.svg" alt="CSS3" className="w-full h-full object-contain" />
+                                <img src={cssIcon} alt="CSS3" className="w-full h-full object-contain" />
                             </motion.div>
 
                             {/* Floating Decorative Elements */}
@@ -412,7 +421,7 @@ const Home = () => {
                                     <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl shadow-purple-500/50">
                                         {/* Profile Photo */}
                                         <img
-                                            src="/src/assets/profile photo.png"
+                                            src={profilePhoto}
                                             alt="Vigneshwaran M - Profile Photo"
                                             className="absolute inset-0 w-full h-full object-cover"
                                         />
