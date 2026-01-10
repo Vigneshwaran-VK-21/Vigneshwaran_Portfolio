@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { Download, Code, Database, Smartphone, Server, PenTool } from 'lucide-react';
+import vigneshwaranCV from '../assets/VIGNESHWARAN-M.pdf';
+
 
 const About = () => {
     const skills = [
@@ -42,8 +44,8 @@ const About = () => {
 
                 <div className="mt-8">
                     <a
-                        href="/path-to-cv.pdf"
-                        download
+                        href={vigneshwaranCV}
+                        download="VIGNESHWARAN_M_CV.pdf"
                         className="inline-flex items-center gap-2 px-6 py-3 bg-primary hover:bg-blue-600 text-white rounded-full font-medium transition-colors"
                     >
                         <Download size={20} /> Download CV

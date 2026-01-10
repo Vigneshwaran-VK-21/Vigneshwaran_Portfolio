@@ -23,6 +23,8 @@ import mongoIcon from '../assets/MongoDB.svg';
 import htmlIcon from '../assets/HTML5.svg';
 import cIcon from '../assets/C.svg';
 import cssIcon from '../assets/CSS3.svg';
+import vigneshwaranCV from '../assets/VIGNESHWARAN-M.pdf';
+
 
 const Home = () => {
     const skills = [
@@ -496,7 +498,7 @@ const Home = () => {
                         </p>
                         <div className="mt-8">
                             <a
-                                href="/VIGNESHWARAN_M_CV.pdf"
+                                href={vigneshwaranCV}
                                 download="VIGNESHWARAN_M_CV.pdf"
                                 className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-full font-medium transition-all duration-300 shadow-lg shadow-blue-500/50 hover:shadow-xl hover:scale-105"
                             >
